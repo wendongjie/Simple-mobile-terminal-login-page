@@ -1,0 +1,126 @@
+
+html {
+    font-size: 625%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    padding: 0.07rem 0.1rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #fff;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    background: #ccc;
+    font-size: 0.14rem;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .14rem;
+    cursor: pointer;
+}
+
+.header h2 {
+    padding: 0;
+    margin: 0 4em;
+    text-align: center;
+    font-size: .16rem;
+}
+
+.wrap {
+    position: absolute;
+    top: 0.46rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: #eff0f4;
+}
+
+.wrap .content {
+    height: auto;
+    font-size: .12rem;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+header, .btn {
+    background: #5fc0cd;
+    color: #fff;
+}
+
+.btn {
+    background: #5fc0cd;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #5bb7c3;
+}
+
+a {
+    color: #5fc0cd;
+}
+
+.login-row {
+    margin: .1rem 0 0 0;
+    width: 100%;
+    background: #fff;
+}
+
+.login-row input {
+    box-sizing: border-box;
+    padding: 0 0 0 .8rem;
+    width: 100%;
+    border: 0 none;
+    font-size: .14rem;
+    line-height: 0.5rem;
+    outline: none;
+}
+
+.login-row input[type=text] {
+    background: url("../images/mobile.png") no-repeat;
+    background-size: .59rem .5rem;
+}
+
+.login-row input[type=password] {
+    background: url("../images/pwd.png") no-repeat;
+    background-size: .59rem .5rem;
+}
+
+.btn-login {
+    margin-top: .1rem;
+    width: 100%;
+    line-height: .5rem;
+    font-size: .16rem;
+    letter-spacing: 1em;
+}
+
+.login-text {
+    padding: 0 1em;
+}
+
+
+
