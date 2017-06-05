@@ -61,12 +61,6 @@ footer {
     font-size: 0.12rem;
 }
 
-.btn {
-    border: none;
-    cursor: pointer;
-    outline: none;
-}
-
 .regist {
     float: left;
 }
@@ -81,8 +75,16 @@ header, .btn {
 }
 
 .btn {
+    margin-top: 0.1rem;
+    border: none;
+    width: 100%;
+    line-height: 0.5rem;
+    font-size: 0.16rem;
+    letter-spacing: 1em;
     background: #5fc0cd;
     transition: background 0.5s;
+    cursor: pointer;
+    outline: none;
 }
 
 .btn:hover {
@@ -117,14 +119,6 @@ a {
 .login-row input[type=password] {
     background: url("../images/pwd.png") no-repeat;
     background-size: 0.59rem 0.5rem;
-}
-
-.btn-login {
-    margin-top: 0.1rem;
-    width: 100%;
-    line-height: 0.5rem;
-    font-size: 0.16rem;
-    letter-spacing: 1em;
 }
 
 .login-text {
